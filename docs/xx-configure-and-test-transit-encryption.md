@@ -10,7 +10,7 @@ Transit Encryption
 - Terraform <https://registry.terraform.io/providers/hashicorp/vault/latest/docs/data-sources/transit_encrypt>
 
 
-Before following the steps below ensure that the vault client on the machine is set up and configured with the VAULT_ADDR, VAULT_TOKEN environment variables. The following steps are performed by Admins hence the VAULT_TOKEN should either be a root token or one with admin privelages.
+Before following the steps below ensure that the vault client on the machine is set up and configured with the VAULT_ADDR, VAULT_TOKEN environment variables. The following steps are performed by Admins hence the VAULT_TOKEN should either be a root token or one with admin privileges.
 
 For details on the steps below please review the documentation above.
 
