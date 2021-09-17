@@ -20,13 +20,25 @@ This tutorial guides you through bootstrapping a highly available Consul & Vault
 * [Envoy](https://github.com/containernetworking/cni) v0.9.1
 
 
-## Labs
+## Steps
 
 This tutorial assumes you have access to the [AWS](https://aws.amazon.com). While AWS is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [POC Architecture](docs/02-poc-architecture.md)
+
+### Consul
 * [Installing Consul Server 1 Manually](docs/03-consul-server-1-manual-install.md)
 * [Provisioning the CA and Generating TLS Certificates](docs/04-provisioning-ca-generate-tls-cert.md)
 * [Installing Consul Server 2 & 3 Using Scripts](docs/05-consul-serers-2-3-script-install.md)
+* [Enable ACL on Consul Cluster](docs/05-consul-serers-2-3-script-install.md)
+* [Set up Consul Agent, Envoy & Java Service](docs/05-consul-serers-2-3-script-install.md)
+
+
+### Vault
+* [Installing Vault Server 1 Manually](docs/06-install-vault-server-1-manually.md)
+* [Installing Vault Servers 2 & 3 Using Scripts](docs/06-install-vault-server-1-manually.md)
+* [Configure and Test Transit Encryption](docs/xx-configure-and-test-transit-encryption.md)
+
+
 
