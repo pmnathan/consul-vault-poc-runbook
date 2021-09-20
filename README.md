@@ -39,6 +39,7 @@ This tutorial assumes you have access to the [AWS](https://aws.amazon.com). Whil
 * [Installing Vault Server 1 Manually](docs/06-install-vault-server-1-manually.md)
 * [Installing Vault Servers 2 & 3 Using Scripts](docs/06-install-vault-server-1-manually.md)
 * [Configure and Test Transit Encryption](docs/xx-configure-and-test-transit-encryption.md)
+* [Configure and Test Format Preserving Encryption](docs/xx-configure-and-test-format-preserving-encryption.md)
 
 
 
